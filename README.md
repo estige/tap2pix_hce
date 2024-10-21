@@ -1,4 +1,4 @@
-# Tap2Pix NFC Card Emulation Service
+# [ Tap2Pix NFC Card Emulation Service ]
 
 Este projeto Android implementa um serviço de emulação de cartão NFC (Host-based Card Emulation, HCE), que permite ao dispositivo simular um cartão NFC e responder a comandos APDU (Application Protocol Data Units). A aplicação emula um cartão NDEF, permitindo a interação com leitores NFC compatíveis. O principal uso é fornecer informações como mensagens de texto ou URLs via NFC.
 
@@ -26,6 +26,7 @@ O fluxo proposto consiste no envio, por meio do comando APDU, de uma URI padroni
 - `“<hostname >?”`: Permite o uso do domínio (Universal Link) **`https://tap2pix.app`**, com um certificado RSA, garante a camada de segurança necessária para comprovação de propriedade e execução exclusiva do aplicativo.
 - `“qr=”`: Este é o elemento central da interoperabilidade proposta pelo Banco Central. O QR code precisa estar em formato URI encode, para que os aplicativos bancários possam filtrar e absorver as informações transmitidas via GET. A informação contida no “copie e cole” é essencial para a realização da transação, enquanto as demais informações apenas compõem a personalização dos aplicativos e seus formatos de leitura.
 
+# [ Transmissão do NFC com Tap2Pix ]
 ## Descrição das Funcionalidades
 
 - **Emulação de cartão NFC (HCE)**: O dispositivo Android atua como um cartão NFC emulado.
@@ -64,6 +65,7 @@ A mensagem NDEF pode conter:
 - Android Studio
 - Um dispositivo Android com suporte a NFC e Host-based Card Emulation (HCE)
 
+# [ Envio da URL do Pix transmitida pelo NFC ] 
 ## Padronização da URL Tap2Pix
 
 O formato padrão da URL para ser transmitido no Tap2Pix é o seguinte:
@@ -80,8 +82,8 @@ Abaixo está um exemplo de como seria a transmissão da URL do Tap2Pix com um QR
 
 Essa estrutura segue as diretrizes de segurança e padronização exigidas pelo Banco Central, garantindo a eficácia e segurança do Tap2Pix em diferentes cenários de uso.
 
-
-## Listagem dos APPs bancários junto ao TAP2PIX
+# [ Listagem dos APPs na Tap2Pix ]
+## Adição dos APPs bancários junto ao TAP2PIX
 
 Para listar seu app no Tap2Pix, é necessário entrar em contato e fornecer os schemes do seu app. Vale lembrar que o Tap2Pix aceitará apps de BaaS e Bancos Sociais. Esses apps não são obrigatórios para o Open Finance na Jornada SEM Redirecionamento, que será lançada em fevereiro de 2025. Contudo, apps de BaaS, Bancos Sociais e de exchanges (optantes pelo OFF Ramp) podem solicitar inclusão via Jornada COM Redirecionamento.
 
@@ -169,8 +171,18 @@ O IOS possui um app instantâneo com ótima UX, onde exibe um card mesmo com Iph
 ### Android / Google
 O Android possui a sua limitação na invocação do app instantâneo através do NFC (O Google tem atualizado bastante o seu instant app e a comunidade tem exigido bastante essa invocação pelo NFC). O subterfúgio que tivemos foi em levar para o navegador e a patir do navegador o cliente que clicar em abrir ele executará o app instantâneo. Assim fizemos uma emulação do card do APP CLIP e um botão abrir. 
 
+# [ Próximos pontos ] 
 
-## Junte-se
+	1 - Padronização do QR Code com logo Tap2Pix;
+	2 - Criação do Fingerprint;
+	3 - Criação do Tap2Crypto (P2P de Stablecoin ou com OFF Ramp para Pix)
+	4 - Criação e consolidação do Consócio Tap2Pix
+	5 - Implementação da JSR com OpF;
+	6 - Incorporação de uma ID e One Click Buy (Estilo Click2Pay da Visa e Mastercard)
+
+ Sugestão dos nomes para a Associação Tap2Pix: **ABTAP - Associação Brasileira de Transações por Aproximação** OU **APAW - Associação de Pagamentos por Aproximação e Wallet**
+
+# [ Junte-se ]
 Vamos unir forças para demonstrar que, por meio da colaboração coletiva, que podemos não apenas estabelecer um novo padrão, mas também transformar a maneira como os brasileiros realizam pagamentos contactless utilizando o Pix? Entre em contato!
 
 Whatsapp: https://api.whatsapp.com/send?phone=5521992038986&text=Ola%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Tap2Pix
