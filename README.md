@@ -157,7 +157,7 @@ Além disso, é o único que oferece ambas as jornadas de pagamento, com e sem r
 
 O mais impressionante é que tudo isso é conduzido sob a governança e total controle dos associados no consórcio!
 
-## Desafios e Anvanços
+## Desafios e Avanços
 
 Aplicativos instantâneos estão em constante evolução, e a equipe do Tap2Pix já realizou todas as adaptações necessárias. Abaixo, detalhamos os desafios encontrados e as soluções adotadas para iOS e Android.
 
