@@ -1,0 +1,57 @@
+[versions]
+agp = "8.5.2"
+awesomeqrcodeKotlin = "1.0.5"
+coil = "2.1.0"
+coilGif = "2.6.0"
+coilGifVersion = "2.1.0"
+emvQrCode = "0.0.5"
+emvQrcodeVersion = "0.1.2"
+glide = "4.15.1"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.1"
+constraintlayout = "2.1.4"
+okhttp = "4.9.0"
+picasso = "2.71828"
+playServicesInstantapps = "18.1.0"
+qrcodeKotlin = "4.1.1"
+retrofit = "2.9.0"
+browser = "1.8.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+awesomeqrcode-kotlin = { module = "com.github.SumiMakito:AwesomeQRCode-Kotlin", version.ref = "awesomeqrcodeKotlin" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
+coil-gif = { module = "io.coil-kt:coil-gif", version.ref = "coilGif" }
+coil-gif-v210 = { module = "io.coil-kt:coil-gif", version.ref = "coilGifVersion" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+emv-qr-code = { module = "com.github.phannaly:emv-qr-code", version.ref = "emvQrCode" }
+emv-qrcode = { module = "com.github.mvallim:emv-qrcode", version.ref = "emvQrcodeVersion" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+okhttp3-integration = { module = "com.github.bumptech.glide:okhttp3-integration", version.ref = "glide" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+play-services-instantapps = { module = "com.google.android.gms:play-services-instantapps", version.ref = "playServicesInstantapps" }
+qrcode-kotlin = { module = "io.github.g0dkar:qrcode-kotlin", version.ref = "qrcodeKotlin" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+androidx-browser = { group = "androidx.browser", name = "browser", version.ref = "browser" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-dynamic-feature = { id = "com.android.dynamic-feature", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+
