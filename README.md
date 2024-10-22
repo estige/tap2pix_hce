@@ -145,7 +145,7 @@ A URL tap2pix.app foi configurada para garantir a segurança da aplicação, **s
 
 Abaixo está um exemplo de como seria a transmissão da URL do Tap2Pix com um QR code estático:
 
-See demo IOS/Apple: [APP Clip](https://appclip.apple.com/id?p=org.tap2pix.application.clip&qr=00020101021126360014br.gov.bcb.pix0114%2B552199203898652040000530398654041.235802BR5918DEIVISON%20A%20L%20SERPA6009CABO%20FRIO62070503%2A%2A%2A6304BD9A)
+See demo  IOS/Apple: [APP Clip](https://appclip.apple.com/id?p=org.tap2pix.application.clip&qr=00020101021126360014br.gov.bcb.pix0114%2B552199203898652040000530398654041.235802BR5918DEIVISON%20A%20L%20SERPA6009CABO%20FRIO62070503%2A%2A%2A6304BD9A)
 
 See demo Android/Google: [Instant APP](https://tap2pix.app/?qr=00020101021126360014br.gov.bcb.pix0114%2B552199203898652040000530398654041.235802BR5918DEIVISON%20A%20L%20SERPA6009CABO%20FRIO62070503%2A%2A%2A6304BD9A)
 
@@ -157,7 +157,7 @@ Ou... Se estiver no desktop, faça a leitura do QR Code (IOS ou Android)
 <img width="331" alt="image" src="https://github.com/user-attachments/assets/d6f0e884-7481-47f6-8380-f8a113971e04">
 
  
-<br><br>
+----
 
 Essa estrutura segue as diretrizes de segurança e padronização exigidas pelo Banco Central, garantindo a eficácia e segurança do Tap2Pix em diferentes cenários de uso.
 
@@ -304,3 +304,20 @@ Email: hi@tap2pix.org
 
 
 Veja mais em tap2pix.org
+
+License
+--------
+
+    Copyright 2024 tap2pix.org
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
