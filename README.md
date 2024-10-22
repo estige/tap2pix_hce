@@ -1,11 +1,22 @@
+
+
 # [ Tap2Pix NFC Card Emulation Service ]
 
 Este projeto Android implementa um serviço de emulação de cartão NFC (Host-based Card Emulation, HCE), que permite ao dispositivo simular um cartão NFC e responder a comandos APDU (Application Protocol Data Units). A aplicação emula um cartão NDEF, permitindo a interação com leitores NFC compatíveis. O principal uso é fornecer informações como mensagens de texto ou URLs via NFC.
 
+## Prints do Tap2Pix
+
+<a href="#">
+ <img height="600" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/d9/a5/07d9a577-b007-69d5-a175-8c3c9a5ffc12/Apple_Store_-_2.png/460x0w.webp" />
+</a>
+<a href="#">
+ <img height="600" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/19/f5/3619f50c-a5c3-2169-758f-d5caf281ae98/Apple_Store_-_3.png/460x0w.webp" />
+</a>
+<a href="#">
+ <img height="600" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/45/63/dd45638c-5f6b-9345-a50c-9290c9d8a519/Apple_Store_-_4.png/460x0w.webp" />
+</a>
+
 ## Links dos apps Tap2Pix
-
-
-
 <a href="https://play.google.com/store/apps/details?id=org.tap2pix.app&hl=pt_BR">
   <img alt="Get it from the Google Play" src="https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_350,q_auto//site-stone/brands/googlePlay" />
 </a>
@@ -30,6 +41,10 @@ Este projeto Android implementa um serviço de emulação de cartão NFC (Host-b
 >O modelo atual para o pagamento com aproximação é com a Jornada COM Redirecionamento. Porém nosso app está preparado para ser um ITP e rodar o JSR quando disponível pelo Banco Central do Brasil e Open Finance Brasil.
 
 <br><br>
+
+<a href="https://www.tap2pix.org">
+ <img height="600" src="https://media.licdn.com/dms/image/v2/D4D22AQGPta0yimkvHQ/feedshare-shrink_800/feedshare-shrink_800/0/1724860093979?e=2147483647&v=beta&t=1-0Df40sK7V6i-POBYSBefRLDK6epA9Py5QgwtBv0Kg" />
+</a>
 
 ## A proposta da Tap2Pix.org
 A proposta da Tap2Pix.org destaca-se como um Super App Wallet soberano, 100% tupiniquim, disponível em multiplataformas (iOS e Android - IPhone, Google e Samsung)
@@ -109,6 +124,11 @@ A mensagem NDEF pode conter:
 - Android Studio
 - Um dispositivo Android com suporte a NFC e Host-based Card Emulation (HCE)
 
+
+<a href="https://www.tap2pix.org">
+ <img height="600" src="https://media.licdn.com/dms/image/v2/D4D22AQE7gYVSTeJLcA/feedshare-shrink_800/feedshare-shrink_800/0/1724860093115?e=2147483647&v=beta&t=yoOxtYvfIJPhWMZpC__pqC4znSY_1dqi5zdf8GCYJ_A" />
+</a>
+
 # [ Envio da URL do Pix transmitida pelo NFC ] 
 ## Padronização da URL Tap2Pix
 
@@ -179,9 +199,15 @@ Para substituir a Wallet da Apple, outras wallets precisarão de 2 cliques later
 - Instalação de um novo aplicativo de wallet;
 - Limitação no suporte a NFCs de serviços, como cartão vacinal do governo, cartões de embarque, tickets de transporte, passaportes da Disney, entre outros.
 
+
+
 ## O projeto Tap2Pix
 
 O projeto Tap2Pix busca a democratização do Pix por Aproximação. Além de estar totalmente preparado para a Jornada SEM Redicionamento, ele também mantém a Jornada COM Redirecionamento.
+
+<a href="https://www.tap2pix.org">
+ <img height="600" src="https://media.licdn.com/dms/image/v2/D4D22AQHMV3vRaJn-xw/feedshare-shrink_800/feedshare-shrink_800/0/1724860094162?e=2147483647&v=beta&t=g2nItvQPs4DUpKiYZ1CaxYLb06Q7HbObxjRAeDupwJQ" />
+</a>
 
 ## Benefícios da Proposta do Tap2Pix:
 
