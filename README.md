@@ -144,13 +144,19 @@ A URL tap2pix.app foi configurada para garantir a segurança da aplicação, **s
 
 Abaixo está um exemplo de como seria a transmissão da URL do Tap2Pix com um QR code estático:
 
+See demo IOS/Apple: [APP Clip](https://appclip.apple.com/id?p=org.tap2pix.application.clip&qr=00020101021126360014br.gov.bcb.pix0114%2B552199203898652040000530398654041.235802BR5918DEIVISON%20A%20L%20SERPA6009CABO%20FRIO62070503%2A%2A%2A6304BD9A)
+
 See demo Android/Google: [Instant APP](https://tap2pix.app/?qr=00020101021126360014br.gov.bcb.pix0114%2B552199203898652040000530398654041.235802BR5918DEIVISON%20A%20L%20SERPA6009CABO%20FRIO62070503%2A%2A%2A6304BD9A)
 
 > [!WARNING]
-> O Instant APP precisa rodar com o Google Chrome
+> O Instant APP precisa rodar com o navegafor Google Chrome
 
-See demo IOS/Apple: [APP Clip](https://appclip.apple.com/id?p=org.tap2pix.application.clip&qr=00020101021126360014br.gov.bcb.pix0114%2B552199203898652040000530398654041.235802BR5918DEIVISON%20A%20L%20SERPA6009CABO%20FRIO62070503%2A%2A%2A6304BD9A)
+Ou... Se estiver no desktop, faça a leitura do QR Code (IOS ou Android)
+
+<img width="331" alt="image" src="https://github.com/user-attachments/assets/d6f0e884-7481-47f6-8380-f8a113971e04">
+
  
+<br><br>
 
 Essa estrutura segue as diretrizes de segurança e padronização exigidas pelo Banco Central, garantindo a eficácia e segurança do Tap2Pix em diferentes cenários de uso.
 
