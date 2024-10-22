@@ -24,7 +24,7 @@ O fluxo proposto consiste no envio, por meio do comando APDU, de uma URI padroni
 
 - `“pix://”`: NÃO É UTILIZADO PELO TAP2PIX! Permite o uso do deeplink, que oferece uma camada de segurança fraca. Contudo, qualquer aplicativo poderia utilizar esse deeplink. Quando combinado com o parâmetro `"&sig=<signature>"`, seria possível criptografar o valor do parâmetro `"qr=<uri-encoded-emv-qr-string>"`, aumentando a segurança, mas criando redundância, pois o “copie e cole” do Pix já possui criptografia suficiente.
 - `“<hostname>?”`: Permite o uso do domínio (Universal Link) **`https://tap2pix.app`**, com um certificado RSA, garante a camada de segurança necessária para comprovação de propriedade e execução exclusiva do aplicativo.
-- `“qr=<uri-rencoded-emv-qr-string>”`: Este é o elemento central da interoperabilidade proposta pelo Banco Central. O QR code precisa estar em formato URI encode, para que os aplicativos bancários possam filtrar e absorver as informações transmitidas via GET. A informação contida no “copie e cole” é essencial para a realização da transação, enquanto as demais informações apenas compõem a personalização dos aplicativos e seus formatos de leitura.
+- `“qr=<uri-encoded-emv-qr-string>”`: Este é o elemento central da interoperabilidade proposta pelo Banco Central. O QR code precisa estar em formato URI encode, para que os aplicativos bancários possam filtrar e absorver as informações transmitidas via GET. A informação contida no “copie e cole” é essencial para a realização da transação, enquanto as demais informações apenas compõem a personalização dos aplicativos e seus formatos de leitura.
 
 # [ Transmissão do NFC com Tap2Pix ]
 ## Descrição das Funcionalidades
