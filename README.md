@@ -100,11 +100,15 @@ Para listar seu app no Tap2Pix, é necessário entrar em contato e fornecer os s
 	},
 </code>
 
-## Exibição dos APPs e sua ordenação
+## Exibição dos APPs e sua ordenação [ Em evolução ]
 
-O Tap2Pix mapeia os apps instalados nos smartphones dos clientes. Checamos se os apps das 20 a 30 instituições mais utilizadas no Brasil estão presentes. Caso contrário, esses apps são removidos da listagem, garantindo que apenas os instalados sejam exibidos.
+O Tap2Pix mapeia os apps instalados nos smartphones dos clientes [ Já desenvolvido para IOS ]. Checamos se os apps estão instalados no Smartphone (IOS e Android) dos clientes. 
 
-A ordenação é feita com base nos últimos 3 apps utilizados pelo cliente, armazenando essa informação para que sejam listados primeiro, proporcionando uma experiência mais simples e eficaz.
+E iremos checar as 20 à 30 instituições mais utilizadas no Brasil estão presentes no Smartphone [ Estamos mapeando os universal link e schemes ]. 
+
+Caso não estejam presente no Smartphone, os links dos apps serão removidos da listagem, garantindo que apenas os apps instalados [ A checagem dos 20 a 30 apps ] sejam exibidos.
+
+A ordenação será feita com base nos últimos 3 apps utilizados pelo cliente [ Em desenvolvimento ], armazenando essa informação para que sejam listados primeiro, proporcionando uma experiência mais simples e eficaz.
 
 ## Redução de Fricção e Taps Necessários
 
