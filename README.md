@@ -149,7 +149,7 @@ See demo IOS/Apple: [APP Clip](https://appclip.apple.com/id?p=org.tap2pix.applic
 See demo Android/Google: [Instant APP](https://tap2pix.app/?qr=00020101021126360014br.gov.bcb.pix0114%2B552199203898652040000530398654041.235802BR5918DEIVISON%20A%20L%20SERPA6009CABO%20FRIO62070503%2A%2A%2A6304BD9A)
 
 > [!WARNING]
-> O Instant APP precisa rodar com o navegafor Google Chrome
+> O Instant APP precisa rodar com o navegador do Google Chrome
 
 Ou... Se estiver no desktop, faça a leitura do QR Code (IOS ou Android)
 
@@ -181,7 +181,7 @@ Para listar seu app no Tap2Pix, é necessário entrar em contato e fornecer os s
 
 O Tap2Pix mapeia os apps instalados nos smartphones dos clientes [ Já desenvolvido para IOS ]. Checamos se os apps estão instalados no Smartphone (IOS e Android) dos clientes. 
 
-E iremos checar as 20 à 30 instituições mais utilizadas no Brasil estão presentes no Smartphone [ Estamos mapeando os universal link e schemes ]. 
+E iremos checar de 20 à 30 dad instituições mais utilizadas no Brasil estão presentes no Smartphone [ Estamos mapeando os universal link e schemes ]. 
 
 Caso não estejam presente no Smartphone, os links dos apps serão removidos da listagem, garantindo que apenas os apps instalados [ A checagem dos 20 a 30 apps ] sejam exibidos.
 
@@ -263,10 +263,25 @@ Vale ressaltar, que nenhum dos participantes do Tap2Pix precisará se preocupar 
 Os aplicativos instantâneos precisaram ser desenvolvidos utilizando a linguagem nativa das plataformas, como Kotlin no Android e Swift no IOS.
 
 ### IOS / Apple
-O IOS possui um app instantâneo com ótima UX, onde exibe um card mesmo com Iphone bloqueado. A limitação que encotramos junto ao APP CLIP da Apple foi no que diz respeito a sua invocação através do **link**. A Apple ainda não permite a ativação do app instantâneo utilizando o universal link (dominio tap2pix.app). Porém nesse momento não iremos utilizar a invocação pelo link devido a não necessidade.
+O IOS possui um app instantâneo com ótima UX, onde exibe um card mesmo com Iphone bloqueado. ~~A limitação que encotramos junto ao APP CLIP da Apple foi no que diz respeito a sua invocação através do **link**.~~ A Apple ainda não permite a ativação do app instantâneo utilizando o universal link (dominio tap2pix.app). 
+
+> [!WARNING]
+> Conforme o demo, conseguimos invocar o APP Clip via link, porem ainda não foi encontrado uma solução para personalizar o Universal Link e assim mantermos o mesmo do APP Clip. **(Em estudo)**
+
+See demo IOS/Apple: [APP Clip](https://appclip.apple.com/id?p=org.tap2pix.application.clip&qr=00020101021126360014br.gov.bcb.pix0114%2B552199203898652040000530398654041.235802BR5918DEIVISON%20A%20L%20SERPA6009CABO%20FRIO62070503%2A%2A%2A6304BD9A)
 
 ### Android / Google
-O Android possui a sua limitação na invocação do app instantâneo através do NFC (O Google tem atualizado bastante o seu instant app e a comunidade tem exigido bastante essa invocação pelo NFC). O subterfúgio que tivemos foi em levar para o navegador e a patir do navegador o cliente que clicar em abrir ele executará o app instantâneo. Assim fizemos uma emulação do card do APP CLIP e um botão abrir. 
+O Android possui a sua limitação na invocação do app instantâneo através do NFC (O Google tem atualizado bastante o seu Instant APP e a comunidade tem exigido bastante essa invocação pelo NFC). O subterfúgio encontrado, foi em levar o cliente para o navegador e ao clicar em abrir ele executará o app instantâneo. 
+
+> [!NOTE]
+> O Android manteve a mesma quantidade de Taps (Cliques) do que no IOS.
+
+See demo Android/Google: [Instant APP](https://tap2pix.app/?qr=00020101021126360014br.gov.bcb.pix0114%2B552199203898652040000530398654041.235802BR5918DEIVISON%20A%20L%20SERPA6009CABO%20FRIO62070503%2A%2A%2A6304BD9A)
+
+> [!WARNING]
+> O Instant APP precisa rodar com o navegador do Google Chrome
+
+<br><br>
 
 # [ Próximos passos ] 
 
