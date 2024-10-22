@@ -7,7 +7,7 @@ Este projeto Android implementa um serviço de emulação de cartão NFC (Host-b
 ## Prints do Tap2Pix
 
 <a href="#">
- <img height="500" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/d9/a5/07d9a577-b007-69d5-a175-8c3c9a5ffc12/Apple_Store_-_2.png/460x0w.webp" />
+ <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/d9/a5/07d9a577-b007-69d5-a175-8c3c9a5ffc12/Apple_Store_-_2.png/460x0w.webp" />
 </a>
 <a href="#">
  <img height="500" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/19/f5/3619f50c-a5c3-2169-758f-d5caf281ae98/Apple_Store_-_3.png/460x0w.webp" />
@@ -126,7 +126,7 @@ A mensagem NDEF pode conter:
 
 
 <a target="_blank" href="https://www.tap2pix.org">
- <img height="500" src="https://media.licdn.com/dms/image/v2/D4D22AQE7gYVSTeJLcA/feedshare-shrink_800/feedshare-shrink_800/0/1724860093115?e=2147483647&v=beta&t=yoOxtYvfIJPhWMZpC__pqC4znSY_1dqi5zdf8GCYJ_A" />
+ <img  src="https://media.licdn.com/dms/image/v2/D4D22AQE7gYVSTeJLcA/feedshare-shrink_800/feedshare-shrink_800/0/1724860093115?e=2147483647&v=beta&t=yoOxtYvfIJPhWMZpC__pqC4znSY_1dqi5zdf8GCYJ_A" />
 </a>
 
 # [ Envio da URL do Pix transmitida pelo NFC ] 
@@ -206,7 +206,7 @@ Para substituir a Wallet da Apple, outras wallets precisarão de 2 cliques later
 O projeto Tap2Pix busca a democratização do Pix por Aproximação. Além de estar totalmente preparado para a Jornada SEM Redicionamento, ele também mantém a Jornada COM Redirecionamento.
 
 <a target="_blank" href="https://www.tap2pix.org">
- <img height="500" src="https://media.licdn.com/dms/image/v2/D4D22AQHMV3vRaJn-xw/feedshare-shrink_800/feedshare-shrink_800/0/1724860094162?e=2147483647&v=beta&t=g2nItvQPs4DUpKiYZ1CaxYLb06Q7HbObxjRAeDupwJQ" />
+ <img  src="https://media.licdn.com/dms/image/v2/D4D22AQHMV3vRaJn-xw/feedshare-shrink_800/feedshare-shrink_800/0/1724860094162?e=2147483647&v=beta&t=g2nItvQPs4DUpKiYZ1CaxYLb06Q7HbObxjRAeDupwJQ" />
 </a>
 
 ## Benefícios da Proposta do Tap2Pix:
