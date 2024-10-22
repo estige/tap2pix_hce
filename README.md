@@ -146,13 +146,11 @@ Abaixo está um exemplo de como seria a transmissão da URL do Tap2Pix com um QR
 
 See demo Android/Google: [Instant APP](https://tap2pix.app/?qr=00020101021126360014br.gov.bcb.pix0114%2B552199203898652040000530398654041.235802BR5918DEIVISON%20A%20L%20SERPA6009CABO%20FRIO62070503%2A%2A%2A6304BD9A)
 
-> [!NOTE]
+> [!WARNING]
 > O Instant APP precisa rodar com o Google Chrome
 
 See demo IOS/Apple: [APP Clip](https://appclip.apple.com/id?p=org.tap2pix.application.clip&qr=00020101021126360014br.gov.bcb.pix0114%2B552199203898652040000530398654041.235802BR5918DEIVISON%20A%20L%20SERPA6009CABO%20FRIO62070503%2A%2A%2A6304BD9A)
-
-> [!WARNING]
-> O APP Clip ainda nao possui sua estrutura invocação por link. Assim somente se consegue instanciar sem o "copie e cole" para pagamento. 
+ 
 
 Essa estrutura segue as diretrizes de segurança e padronização exigidas pelo Banco Central, garantindo a eficácia e segurança do Tap2Pix em diferentes cenários de uso.
 
