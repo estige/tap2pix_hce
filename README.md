@@ -78,7 +78,7 @@ A URL tap2pix.app foi configurada para garantir a segurança da aplicação, **s
 
 Abaixo está um exemplo de como seria a transmissão da URL do Tap2Pix com um QR code estático:
 
-	https://tap2pix.app/?qr=00020101021126360014br.gov.bcb.pix0114%2B552199203898652040000530398654041.235802BR5918DEIVISON%20A%20L%20SERPA6009CABO%20FRIO62070503%2A%2A%2A6304BD9A
+See demo: [APP Clip by IOS or Instant APP by Android ](https://apuyou.github.io/store-badge/demo](https://tap2pix.app/?qr=00020101021126360014br.gov.bcb.pix0114%2B552199203898652040000530398654041.235802BR5918DEIVISON%20A%20L%20SERPA6009CABO%20FRIO62070503%2A%2A%2A6304BD9A))
 
 Essa estrutura segue as diretrizes de segurança e padronização exigidas pelo Banco Central, garantindo a eficácia e segurança do Tap2Pix em diferentes cenários de uso.
 
@@ -89,7 +89,7 @@ Para listar seu app no Tap2Pix, é necessário entrar em contato e fornecer os s
 
 É necessário fornecer os schemes do app junto com o Universal Link. Exemplo:
 
-<code>
+```json
 	"name": "BANCO-A",
 	"brand": "https://static.eb.tech/img/BANCO-A.png",
 	"universal_link": "https://www.BANCO-A.com.br/",
@@ -97,8 +97,7 @@ Para listar seu app no Tap2Pix, é necessário entrar em contato e fornecer os s
 		"android": "BANCO-A://transferenciapix",
 		"ios": "BANCO-A://transferenciapix"
 	}
-	},
-</code>
+```
 
 ## Exibição dos APPs e sua ordenação [ Em evolução ]
 
@@ -216,7 +215,7 @@ O Android possui a sua limitação na invocação do app instantâneo através d
 # [ Junte-se ]
 Vamos unir forças para demonstrar que, por meio da colaboração coletiva, que podemos não apenas estabelecer um novo padrão, mas também transformar a maneira como os brasileiros realizam pagamentos contactless utilizando o Pix? Entre em contato!
 
-Whatsapp: https://api.whatsapp.com/send?phone=5521992038986&text=Ola%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Tap2Pix
+[Contato via Whatsapp](https://apuyou.github.io/store-badge/demo](https://api.whatsapp.com/send?phone=5521992038986&text=Ola%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Tap2Pix))
 
 Email: hi@tap2pix.org
 
