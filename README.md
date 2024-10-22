@@ -159,11 +159,19 @@ O mais impressionante é que tudo isso é conduzido sob a governança e total co
 
 ## Desafios e Avanços
 
-Aplicativos instantâneos estão em constante evolução, e a equipe do Tap2Pix já realizou todas as adaptações necessárias. Abaixo, detalhamos os desafios encontrados e as soluções adotadas para iOS e Android.
+Os aplicativos instantâneos estão em constante evolução, e a equipe do Tap2Pix já realizou todas as adaptações necessárias, continuando seu desenvolvimento contínuo. 
 
-Ambos aplicativos instantâneos possuem pouca documentação e estão em constante evolução. Nenhum dos participantes do Tap2Pix precisará se preocupar com o desenolvimento dos aplicativos instantâneos para plugarem ao Tap2Pix, toda a jornada e adpação necessária já foi feita pela equipe do Tap2Pix.
+Atualmente, o Tap2Pix está em fase de pré-lançamento, com os participantes do consórcio e as suas equipes de desenvolvimento trabalhando juntos para alinhar o processo de onboarding, a listagem e os fluxos operacionais.
 
-Os aplicativos instantâneos precisaram serem desenvolvidos utilizando a linguagem nativa das plataformas, como Kotlin no Android e Swift no IOS.
+É importante destacar que, após a integração dos parceiros do consórcio, o Tap2Pix avançará para a criação da sua associação e estruturação de sua governança.
+
+Abaixo, detalhamos os desafios encontrados e as soluções instantâneas adotadas para iOS e Android.
+
+Ambos os sistemas de aplicativos instantâneos (iOS e Android) possuem documentação limitada, mas as recentes atualizações feitas pelas plataformas mostram que estão em constante evolução (Principalmente a do Android, que como descrito anteriormente. Ainda não suporta a sua inicialização direta pelo NFC. Necessitando assim haver uma pagina web, que antecede e faz a sua chamada. 
+
+Vale ressaltar, que nenhum dos participantes do Tap2Pix precisará se preocupar com o desenolvimento dos aplicativos instantâneos para plugarem ao Tap2Pix, toda a jornada e adpação necessária já foi feita pela equipe do Tap2Pix.
+
+Os aplicativos instantâneos precisaram ser desenvolvidos utilizando a linguagem nativa das plataformas, como Kotlin no Android e Swift no IOS.
 
 ### IOS / Apple
 O IOS possui um app instantâneo com ótima UX, onde exibe um card mesmo com Iphone bloqueado. A limitação que encotramos junto ao APP CLIP da Apple foi no que diz respeito a sua invocação através do **link**. A Apple ainda não permite a ativação do app instantâneo utilizando o universal link (dominio tap2pix.app). Porém nesse momento não iremos utilizar a invocação pelo link devido a não necessidade.
