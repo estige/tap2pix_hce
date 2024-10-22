@@ -27,7 +27,8 @@ Este projeto Android implementa um serviço de emulação de cartão NFC (Host-b
 <br><br>
 
 > [!IMPORTANT]
-> Somente o Android possui a funcionadade para a transmição do NFC! Sendo assim, os Vendedores precisam sempre ser Android. Já o Pagador, pode ser Android ou IOS
+> Somente o Android possui a funcionadade para a transmição do NFC! Sendo assim, **os Vendedores precisarão sempre ser Android.**
+> Já o Comprador, pode ser qualquer plataforma (Android ou IOS)
 
 <br>
 
