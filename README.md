@@ -184,7 +184,7 @@ O mais impressionante é que tudo isso é conduzido sob a governança e total co
 
 Os aplicativos instantâneos estão em constante evolução, e a equipe do Tap2Pix já realizou todas as adaptações necessárias, continuando seu desenvolvimento contínuo. 
 
-Atualmente, o Tap2Pix está em fase de pré-lançamento, com os participantes do consórcio e as suas equipes de desenvolvimento trabalhando juntos para alinhar o processo de onboarding, a listagem e os fluxos operacionais.
+Atualmente, o Tap2Pix está em fase de pré-lançamento, com os participantes do consórcio e as suas equipes de desenvolvimento trabalhando junto para alinhar o processo de onboarding, a listagem e os fluxos operacionais.
 
 É importante destacar que, após a integração dos parceiros do consórcio, o Tap2Pix avançará para a criação da sua associação e estruturação de sua governança.
 
@@ -202,7 +202,7 @@ O IOS possui um app instantâneo com ótima UX, onde exibe um card mesmo com Iph
 ### Android / Google
 O Android possui a sua limitação na invocação do app instantâneo através do NFC (O Google tem atualizado bastante o seu instant app e a comunidade tem exigido bastante essa invocação pelo NFC). O subterfúgio que tivemos foi em levar para o navegador e a patir do navegador o cliente que clicar em abrir ele executará o app instantâneo. Assim fizemos uma emulação do card do APP CLIP e um botão abrir. 
 
-# [ Próximos pontos ] 
+# [ Próximos passos ] 
 
 	1 - Padronização do QR Code com logo Tap2Pix;
 	2 - Criação do Fingerprint;
