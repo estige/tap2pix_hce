@@ -2,6 +2,44 @@
 
 Este projeto Android implementa um serviço de emulação de cartão NFC (Host-based Card Emulation, HCE), que permite ao dispositivo simular um cartão NFC e responder a comandos APDU (Application Protocol Data Units). A aplicação emula um cartão NDEF, permitindo a interação com leitores NFC compatíveis. O principal uso é fornecer informações como mensagens de texto ou URLs via NFC.
 
+## Links dos apps Tap2Pix
+
+
+
+<a href="https://play.google.com/store/apps/details?id=org.tap2pix.app&hl=pt_BR">
+  <img alt="Get it from the Google Play" src="https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_350,q_auto//site-stone/brands/googlePlay" />
+</a>
+<a href="https://apps.apple.com/us/app/tap2pix/id6624295820?l=pt-BR">
+  <img alt="Get it from the App Store" src="https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_350,q_auto//site-stone/brands/appStore" />
+</a>
+
+<br><br>
+
+> [!IMPORTANT]
+> Somente o Android possui a funcionadade para a transmição do NFC! Sendo assim, os Vendedores precisam sempre ser Android. Já o Pagador, pode ser Android ou IOS
+
+<br>
+
+> [!NOTE]
+>Para a realização do teste, faça o download em um Android do Tap2Pix, coloque o valor a ser cobrado e aproxime de qualquer IPhone ou Android.
+
+> [!NOTE]
+>Nesse momento para os testes, somente temos listado 3 bancos, são eles: **Itaú Unibanco, Mercado Pago e Bradesco**.
+
+> [!NOTE]
+>O modelo atual para o pagamento com aproximação é com a Jornada COM Redirecionamento. Porém nosso app está preparado para ser um ITP e rodar o JSR quando disponível pelo Banco Central do Brasil e Open Finance Brasil.
+
+<br><br>
+
+## A proposta da Tap2Pix.org
+A proposta da Tap2Pix.org destaca-se como um Super App Wallet soberano, 100% tupiniquim, disponível em multiplataformas (iOS e Android - IPhone, Google e Samsung)
+
+Que permite a iniciação automática dos pagamentos pela aproximação do celular via NFC ou através da leitura de QR Code. 
+
+Além disso, é o único que oferece ambas as jornadas de pagamento, com e sem redirecionamento. Permitindo uma gradual adaptação dos usuários. 
+
+O mais impressionante é que tudo isso é conduzido sob a governança e total controle dos associados no consórcio!
+
 ## NfcFCardEmulation
 
 NfcFCardEmulation é um serviço Android que utiliza a tecnologia Host-based Card Emulation (HCE) para emular um cartão NFC e transmitir mensagens NDEF, como textos ou URLs, para leitores NFC. Ele é ideal para aplicações que precisam simular cartões NFC e responder a comandos APDU.
@@ -9,8 +47,8 @@ NfcFCardEmulation é um serviço Android que utiliza a tecnologia Host-based Car
 Veja mais em: https://developer.android.com/reference/android/nfc/cardemulation/NfcFCardEmulation
 
 
-	Nota: Nenhum dos participantes do Tap2Pix precisará se preocupar com o desenvolvimento dos aplicativos instantâneos
- 	para integração com o Tap2Pix. Toda a jornada e adaptação necessária já foi realizada pela equipe do Tap2Pix.
+> [!IMPORTANT]
+> Nenhum dos participantes do Tap2Pix precisará se preocupar com o desenvolvimento dos aplicativos instantâneos para integração com o Tap2Pix. Toda a jornada e adaptação necessária já foi realizada pela equipe do Tap2Pix.
 
 ## Padrão do Banco Central para o Pix por Aproximação
 
@@ -21,10 +59,16 @@ O Banco Central do Brasil, por meio do Grupo de Trabalho de Padronização e Req
 O fluxo proposto consiste no envio, por meio do comando APDU, de uma URI padronizada por terminais de pagamento (maquininhas, smartphones ou pin pads), seguindo o seguinte formato:
 
 	pix://<hostname>?qr=<uri-encoded-emv-qr-string>&sig=<signature>
+ 
+[![](https://img.shields.io/badge/pix://-red?style=for-the-badge)](#)
+- `“pix://”`: 🟥 NÃO É UTILIZADO PELO TAP2PIX! Permite o uso do deeplink, que oferece uma camada de segurança fraca. Contudo, qualquer aplicativo poderia utilizar esse deeplink. Quando combinado com o parâmetro `"&sig=<signature>"`, seria possível criptografar o valor do parâmetro `"qr=<uri-encoded-emv-qr-string>"`, aumentando a segurança, mas criando redundância, pois o “copie e cole” do Pix já possui criptografia suficiente.
 
-- `“pix://”`: NÃO É UTILIZADO PELO TAP2PIX! Permite o uso do deeplink, que oferece uma camada de segurança fraca. Contudo, qualquer aplicativo poderia utilizar esse deeplink. Quando combinado com o parâmetro `"&sig=<signature>"`, seria possível criptografar o valor do parâmetro `"qr=<uri-encoded-emv-qr-string>"`, aumentando a segurança, mas criando redundância, pois o “copie e cole” do Pix já possui criptografia suficiente.
-- `“<hostname>?”`: Permite o uso do domínio (Universal Link) **`https://tap2pix.app`**, com um certificado RSA, garante a camada de segurança necessária para comprovação de propriedade e execução exclusiva dos aplicativos instantâneos. 
-- `“qr=<uri-encoded-emv-qr-string>”`: Este é o elemento central da interoperabilidade proposta pelo Banco Central. O QR code precisa estar em formato URI encode, para que os aplicativos bancários possam filtrar e absorver as informações transmitidas via GET. A informação contida no “copie e cole” é essencial para a realização da transação, enquanto as demais informações apenas compõem a personalização dos aplicativos e seus formatos de leitura.
+[![](https://img.shields.io/badge/hostname-blue?style=for-the-badge)](#)
+- `“<hostname>?”`: 🟩 Permite o uso do domínio (Universal Link) **`https://tap2pix.app`**, com um certificado RSA, garante a camada de segurança necessária para comprovação de propriedade e execução exclusiva dos aplicativos instantâneos.
+
+[![](https://img.shields.io/badge/qr-blue?style=for-the-badge)](#)
+- `“qr=<uri-encoded-emv-qr-string>”`: 🟩 Este é o elemento central da interoperabilidade proposta pelo Banco Central. O QR code precisa estar em formato URI encode, para que os aplicativos bancários possam filtrar e absorver as informações transmitidas via GET. A informação contida no “copie e cole” é essencial para a realização da transação, enquanto as demais informações apenas compõem a personalização dos aplicativos e seus formatos de leitura.
+
 
 # [ Transmissão do NFC com Tap2Pix ]
 ## Descrição das Funcionalidades
@@ -119,7 +163,8 @@ O Tap2Pix busca reduzir essa fricção nos pagamentos presenciais com Pix, propo
 
 • Na proposta do Tap2Pix COM redirecionamento, a jornada varia de 3 a 6 interações. A melhor experiência de UX foi alcançada com 3 taps, e, entre os bancos testados, o Mercado Pago apresentou 4 taps, com tempo de transação variando entre 6 e 15 segundos em média.
 
-O Tap2Pix é compatível com Apple Pay e Instant App Android, mantendo a mesma quantidade de interações nas Jornadas COM e SEM Redirecionamento em ambas as plataformas.
+> [!TIP]
+> O Tap2Pix é compatível com Apple Pay e Instant App Android, mantendo a mesma quantidade de interações nas Jornadas COM e SEM Redirecionamento em ambas as plataformas.
 
 • Na proposta SEM redirecionamento, estimamos que o processo envolverá 2 cliques laterais + 1 ou 2 taps. Considerando que haverá mais um PSP intermediando a transação, acreditamos que a latência do JSR será ligeiramente maior devido às verificações de fraude, levando de 10 a 15 segundos em média.
 
@@ -160,24 +205,6 @@ O projeto Tap2Pix busca a democratização do Pix por Aproximação. Além de es
 - É uma solução pioneira em nível mundial, desenvolvida por um grupo de empresas com uma proposta de padronização aberta para o uso de pagamentos via NFC, visando superar as limitações existentes;
 - Entrará em produção (com a Jornada COM Redirecionamento) até o início de outubro de 2024.
 
-## Links dos apps 
-
-- IOS: https://apps.apple.com/us/app/tap2pix/id6624295820?l=pt-BR
-- Android: https://play.google.com/store/apps/details?id=org.tap2pix.app&hl=pt_BR
-
-Ps: Para a realização do teste, faça o download em um Android do Tap2Pix, coloque o valor a ser cobrado e aproxime de qualquer IPhone ou Android. 
-
-Nesse momento para os testes, somente temos listado 3 bancos, são eles: Itaú Unibanco, Mercado Pago e Bradesco. 
-
-O modelo atual para o pagamento com aproximação é com a Jornada COM Redirecionamento. Porém nosso app está preparado para ser um ITP e rodar o JSR quando disponível pelo Banco Central do Brasil e Open Finance Brasil. 
-
-A proposta da Tap2Pix.org destaca-se como um Super App Wallet soberano, 100% tupiniquim, disponível em multiplataformas (iOS e Android - IPhone, Google e Samsung)
-
-Que permite a iniciação automática dos pagamentos pela aproximação do celular via NFC ou através da leitura de QR Code. 
-
-Além disso, é o único que oferece ambas as jornadas de pagamento, com e sem redirecionamento. Permitindo uma gradual adaptação dos usuários. 
-
-O mais impressionante é que tudo isso é conduzido sob a governança e total controle dos associados no consórcio!
 
 ## Desafios e Avanços
 
