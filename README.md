@@ -303,7 +303,7 @@ Vamos unir forças para demonstrar que, por meio da colaboração coletiva, que 
 Email: hi@tap2pix.org
 
 
-Veja mais em tap2pix.org
+Veja mais em https://www.tap2pix.org
 
 License
 --------
