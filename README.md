@@ -76,7 +76,9 @@ O fluxo proposto consiste no envio, por meio do comando APDU, de uma URI padroni
 	pix://<hostname>?qr=<uri-encoded-emv-qr-string>&sig=<signature>
  
 [![](https://img.shields.io/badge/pix://-red?style=for-the-badge)](#)
-- `“pix://”`: 🟥 NÃO É UTILIZADO PELO TAP2PIX! Permite o uso do deeplink, que oferece uma camada de segurança fraca. Contudo, qualquer aplicativo poderia utilizar esse deeplink. Quando combinado com o parâmetro `"&sig=<signature>"`, seria possível criptografar o valor do parâmetro `"qr=<uri-encoded-emv-qr-string>"`, aumentando a segurança, mas criando redundância, pois o “copie e cole” do Pix já possui criptografia suficiente.
+> [!WARNING]
+> O DEEPLINK NÃO É UTILIZADO PELO TAP2PIX! 
+- `“pix://”`: 🟥 Permite o uso do deeplink, que oferece uma camada de segurança fraca. Contudo, qualquer aplicativo poderia utilizar esse deeplink. Quando combinado com o parâmetro `"&sig=<signature>"`, seria possível criptografar o valor do parâmetro `"qr=<uri-encoded-emv-qr-string>"`, aumentando a segurança, mas criando redundância, pois o “copie e cole” do Pix já possui criptografia suficiente.
 
 [![](https://img.shields.io/badge/hostname-blue?style=for-the-badge)](#)
 - `“<hostname>?”`: 🟩 Permite o uso do domínio (Universal Link) **`https://tap2pix.app`**, com um certificado RSA, garante a camada de segurança necessária para comprovação de propriedade e execução exclusiva dos aplicativos instantâneos.
