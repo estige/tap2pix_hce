@@ -112,9 +112,28 @@ A ordenação será feita com base nos últimos 3 apps utilizados pelo cliente [
 
 ## Redução de Fricção e Taps Necessários
 
-O Tap2Pix reduz a fricção nos pagamentos presenciais com Pix, oferecendo uma experiência mais simples com 2 a 4 taps na Jornada SEM Redirecionamento, em comparação aos 6 a 8 taps com QR Code. O app é compatível com Apple Pay e Instant App Android, mantendo a mesma quantidade de taps na Jornada COM Redirecionamento.
+O Pix já é um sucesso para pagamentos online e de serviços. No entanto, no uso presencial, ele ainda enfrenta obstáculos devido à fricção envolvida.
 
-Na Jornada COM Redirecionamento o APP CLIP da Apple e o Instant APP do Android possuem a mesma quantidade de TAPS.
+Em testes de laboratório, observamos que a jornada com QR Code exige de 8 a 12 interações (taps), resultando em um tempo total entre 20 e 50 segundos.
+
+O Tap2Pix busca reduzir essa fricção nos pagamentos presenciais com Pix, proporcionando uma experiência mais simplificada.
+
+• Na proposta do Tap2Pix COM redirecionamento, a jornada varia de 3 a 6 interações. A melhor experiência de UX foi alcançada com 3 taps, e, entre os bancos testados, o Mercado Pago apresentou 4 taps, com tempo de transação variando entre 6 e 15 segundos em média.
+
+O Tap2Pix é compatível com Apple Pay e Instant App Android, mantendo a mesma quantidade de interações nas Jornadas COM e SEM Redirecionamento em ambas as plataformas.
+
+• Na proposta SEM redirecionamento, estimamos que o processo envolverá 2 cliques laterais + 1 ou 2 taps. Considerando que haverá mais um PSP intermediando a transação, acreditamos que a latência do JSR será ligeiramente maior devido às verificações de fraude, levando de 10 a 15 segundos em média.
+
+• A experiência com a Wallet da Apple demonstrou ser extremamente eficiente, exigindo apenas 2 cliques laterais, com tempo médio de 5 a 10 segundos.
+
+Para substituir a Wallet da Apple, outras wallets precisarão de 2 cliques laterais + 1 tap para ativar a leitura do NFC, levando de 10 a 15 segundos. No entanto, para que essas wallets sejam competitivas, é essencial que ofereçam uma UX superior à da Apple, para motivar os clientes a usá-las. Outros pontos identificados foram:
+
+- Necessidade de atualização dos smartphones dos clientes para iOS 18.1 ou superior;
+- Competição direta com a Wallet da Apple;
+- Necessidade de interação para ativar a leitura do NFC;
+- Competição com bandeiras de cartão de crédito;
+- Instalação de um novo aplicativo de wallet;
+- Limitação no suporte a NFCs de serviços, como cartão vacinal do governo, cartões de embarque, tickets de transporte, passaportes da Disney, entre outros.
 
 ## O projeto Tap2Pix
 
