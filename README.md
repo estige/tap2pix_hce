@@ -220,9 +220,9 @@ Para substituir a Wallet da Apple, outras wallets precisarão de 2 cliques later
 
 O projeto Tap2Pix busca a democratização do Pix por Aproximação. Além de estar totalmente preparado para a Jornada SEM Redicionamento, ele também mantém a Jornada COM Redirecionamento.
 
-<a target="_blank" href="https://www.tap2pix.org">
+<!-- a target="_blank" href="https://www.tap2pix.org">
  <img  src="https://media.licdn.com/dms/image/v2/D4D22AQHMV3vRaJn-xw/feedshare-shrink_800/feedshare-shrink_800/0/1724860094162?e=2147483647&v=beta&t=g2nItvQPs4DUpKiYZ1CaxYLb06Q7HbObxjRAeDupwJQ" />
-</a>
+</a -->
 
 ## Benefícios da Proposta do Tap2Pix:
 
