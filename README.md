@@ -1,5 +1,26 @@
 
 
+<div align="center">
+
+<a href="https://www.tap2pix.org/">
+ <img width="500" src="https://github.com/user-attachments/assets/4cc1d479-2ee0-40b8-9d8a-eea8a79180dc" />
+</a>
+<br><br>
+
+![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/estige/tap2pix_hce.svg)
+[![status-badge](https://woodpecker.join-lemmy.org/api/badges/dessalines/thumb-key/status.svg)](https://www.tap2pix.org/)
+[![License](https://img.shields.io/github/license/estige/tap2pix_hce.svg)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues-raw/estige/tap2pix_hce.svg)](https://github.com/estige/tap2pix_hce/issues)
+
+
+<a href="https://github.com/estige/tap2pix_hce/releases/latest"><img src="https://raw.githubusercontent.com/andOTP/andOTP/master/assets/badges/get-it-on-github.png" height="80"></a>
+
+### Tap2Pix :heart: Super App Wallet 100% Tupiniquim <img width="18" src="https://github.com/user-attachments/assets/c81e910c-b504-473e-8431-caf948bf7718" /> for IOS & Android
+
+</div>
+
+<br>
+
 # [ Tap2Pix NFC Card Emulation Service ]
 
 Este projeto Android implementa um serviço de emulação de cartão NFC (Host-based Card Emulation, HCE), que permite ao dispositivo simular um cartão NFC e responder a comandos APDU (Application Protocol Data Units). A aplicação emula um cartão NDEF, permitindo a interação com leitores NFC compatíveis. O principal uso é fornecer informações como mensagens de texto ou URLs via NFC.
@@ -308,16 +329,7 @@ Veja mais em https://www.tap2pix.org
 License
 --------
 
-    Copyright 2024 tap2pix.org
+Copyright 2024 tap2pix.org
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Open-source, [AGPL License](/LICENSE)
+ 
