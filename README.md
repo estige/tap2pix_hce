@@ -7,9 +7,8 @@
 </a>
 <br><br>
 
-![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/estige/tap2pix_hce.svg)
 [![status-badge](https://woodpecker.join-lemmy.org/api/badges/dessalines/thumb-key/status.svg)](https://www.tap2pix.org/)
-[![License](https://img.shields.io/github/license/estige/tap2pix_hce.svg)](LICENSE)
+[![License](https://img.shields.io/github/license/dessalines/thumb-key.svg)](LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues-raw/estige/tap2pix_hce.svg)](https://github.com/estige/tap2pix_hce/issues)
 
 
