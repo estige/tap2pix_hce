@@ -13,7 +13,7 @@
 [![GitHub issues](https://img.shields.io/github/issues-raw/estige/tap2pix_hce.svg)](https://github.com/estige/tap2pix_hce/issues)
 
 
-<a href="https://github.com/estige/tap2pix_hce/releases/latest"><img src="https://raw.githubusercontent.com/andOTP/andOTP/master/assets/badges/get-it-on-github.png" height="80"></a>
+<!-- a href="https://github.com/estige/tap2pix_hce/releases/latest"><img src="https://raw.githubusercontent.com/andOTP/andOTP/master/assets/badges/get-it-on-github.png" height="80"></a -->
 
 ### Tap2Pix :heart: Super App Wallet 100% Tupiniquim <img width="18" src="https://github.com/user-attachments/assets/c81e910c-b504-473e-8431-caf948bf7718" /> for IOS & Android
 
