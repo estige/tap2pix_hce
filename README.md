@@ -331,10 +331,15 @@ Email: hi@tap2pix.org
 
 Veja mais em https://www.tap2pix.org
 
-License
---------
+<br>
+
+# [ Licença ]
 
 Copyright 2024 tap2pix.org
 
+
+--------
+A AGPL-3.0 (Affero General Public License) é uma licença de software livre que protege desenvolvedores ao garantir que qualquer modificação ou uso do software seja compartilhado com a comunidade, mesmo quando ele é oferecido como um serviço remoto, como em aplicações web. Ela estende os princípios da GPL, incluindo a exigência de que, se alguém modificar o software para oferecer um serviço, deve disponibilizar o código-fonte modificado a todos os usuários desse serviço, se solicitado. Isso impede que empresas ou indivíduos utilizem o software para lucrar ou oferecer serviços sem compartilhar as melhorias ou adaptações feitas. Assim, a AGPL-3.0 assegura que todo trabalho colaborativo e aberto seja mantido público, promovendo um ciclo contínuo de melhorias e garantindo que os benefícios e inovações sejam acessíveis a toda a comunidade de desenvolvedores.
+
+--------
 Open-source, [AGPL License](/LICENSE)
- 
