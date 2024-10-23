@@ -27,6 +27,7 @@ Este projeto Android implementa um serviço de emulação de cartão NFC (Host-b
 
 ## Prints do Tap2Pix
 
+<div align="center">
 <a href="#">
  <img width="400" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/d9/a5/07d9a577-b007-69d5-a175-8c3c9a5ffc12/Apple_Store_-_2.png/460x0w.webp" />
 </a>
@@ -36,14 +37,18 @@ Este projeto Android implementa um serviço de emulação de cartão NFC (Host-b
 <!-- a href="#">
  <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/45/63/dd45638c-5f6b-9345-a50c-9290c9d8a519/Apple_Store_-_4.png/460x0w.webp" />
 </a -->
+</div>
 
 ## Links dos apps Tap2Pix
+
+<div align="center">
 <a target="_blank" href="https://play.google.com/store/apps/details?id=org.tap2pix.app&hl=pt_BR">
   <img alt="Get it from the Google Play" src="https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_350,q_auto//site-stone/brands/googlePlay" />
 </a>
 <a target="_blank" href="https://apps.apple.com/us/app/tap2pix/id6624295820?l=pt-BR">
   <img alt="Get it from the App Store" src="https://res.cloudinary.com/dunz5zfpt/f_auto,c_limit,w_350,q_auto//site-stone/brands/appStore" />
 </a>
+</div>
 
 <br><br>
 
