@@ -28,10 +28,10 @@ Este projeto Android implementa um serviço de emulação de cartão NFC (Host-b
 ## Prints do Tap2Pix
 
 <a href="#">
- <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/d9/a5/07d9a577-b007-69d5-a175-8c3c9a5ffc12/Apple_Store_-_2.png/460x0w.webp" />
+ <img width="400" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/d9/a5/07d9a577-b007-69d5-a175-8c3c9a5ffc12/Apple_Store_-_2.png/460x0w.webp" />
 </a>
 <a href="#">
- <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/19/f5/3619f50c-a5c3-2169-758f-d5caf281ae98/Apple_Store_-_3.png/460x0w.webp" />
+ <img width="400" src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/19/f5/3619f50c-a5c3-2169-758f-d5caf281ae98/Apple_Store_-_3.png/460x0w.webp" />
 </a>
 <!-- a href="#">
  <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/45/63/dd45638c-5f6b-9345-a50c-9290c9d8a519/Apple_Store_-_4.png/460x0w.webp" />
