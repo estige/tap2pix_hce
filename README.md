@@ -328,7 +328,7 @@ See demo Android/Google: [Instant APP](https://tap2pix.app/?qr=00020101021126360
 
  Sugestão dos nomes para a Associação Tap2Pix: **ABTAP - Associação Brasileira de Transações por Aproximação** OU **APAW - Associação de Pagamentos por Aproximação e Wallet**
  
-## Contributions History 
+## Contributions: Star History 
 
 <a href="https://star-history.com/#estige/tap2pix_hce&Date">
  <picture>
