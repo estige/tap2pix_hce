@@ -327,6 +327,17 @@ See demo Android/Google: [Instant APP](https://tap2pix.app/?qr=00020101021126360
 	6 - Incorporação de uma ID e One Click Buy (Estilo Click2Pay da Visa e Mastercard)
 
  Sugestão dos nomes para a Associação Tap2Pix: **ABTAP - Associação Brasileira de Transações por Aproximação** OU **APAW - Associação de Pagamentos por Aproximação e Wallet**
+ 
+## Contributions History 
+
+<a href="https://star-history.com/#estige/tap2pix_hce&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=estige/tap2pix_hce&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=estige/tap2pix_hce&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=estige/tap2pix_hce&type=Date" />
+ </picture>
+</a>
+
 
 # [ Junte-se ]
 Vamos unir forças para demonstrar que, por meio da colaboração coletiva, que podemos não apenas estabelecer um novo padrão, mas também transformar a maneira como os brasileiros realizam pagamentos contactless utilizando o Pix? Entre em contato!
